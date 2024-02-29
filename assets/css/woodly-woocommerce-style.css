@@ -1,0 +1,127 @@
+.woodly__home_two-carousel-img img.card-img-top {
+    border-radius: 4px;
+}
+.woodly__home_two-carousel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.woodly__home_two-carousel-price del bdi,
+.woodly__home_two-carousel-price del{
+    color: #7C8381;
+    text-align: center;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.woodly__home_two-carousel-price ins {
+    color: #3C9581;
+    text-align: center;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    background: none;
+}
+.woodly__home_two-carousel-price bdi {
+    color: #3C9581;
+    text-align: center;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.woodly__home_two-carousel-title a {
+    color:#1F2826;
+    text-align: center;
+    font-size: 16px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.woodly__home_two-carousel-title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.woodly__home_two-carousel-rating {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.woodly__home_two-rating-count {
+    color: #1F2826;
+    font-size: 12px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.woodly__home_two-ratting-star .star-rating {
+    line-height: 20px;
+    font-size: 14px;
+}
+.woodly__home_two-carousel-cart-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3C9581;
+    border-radius: 4px;
+    padding: 8px 0;
+    margin-top: 26px;
+    color: #FFFDFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: capitalize;
+    align-items: center;
+    gap: 10px;
+}
+.woodly__home_two-carousel-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.woodly__product-additional-hover-info {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.woodly__product-additional-hover-info a {
+    color: #1F2826;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.woodly__product-additional-hover-info a:hover {
+    background: #3C9581;
+    color: #ffffff;
+}
+
+.woodly_home_two_product-content:hover .woodly__product-additional-hover-info {
+    opacity: 1;
+    bottom: 24px;
+}
